@@ -1,0 +1,195 @@
+/* ini css */
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+    /*ini menu */
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans',sans-serif;
+}
+
+.main-content {
+    background-color: rgba(255, 131, 214, 0.886);
+}
+
+.logo-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(255, 131, 214, 0.886);
+}
+
+.logo {
+    height: 10%;
+    width: 10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.menu {
+    width: 1100px;
+    display: flex;
+    flex: 1;
+    align-content: center;
+    margin: auto;
+    position: relative;
+    justify-content: flex-end;
+}
+
+nav>a{
+   padding: 10px;
+   text-align: center;
+   font-size: 14sp;
+   color: #e38faa;
+   border: 2px solid;
+   background-color: black;
+   float: center;
+}
+
+  nav > a:hover {
+    text-decoration: underline;
+}
+
+.home>h1 {
+    float: center;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding: 16px 24px;
+}
+.header-wrapper > .menu {
+    display: flex;
+}
+.header-wrapper > .menu > button {
+    background-color: #fff;
+    padding: 15px 16px;
+    border: 1px solid ;
+    cursor: pointer;
+    transition: 0.3s background-color ease-out;
+}
+.header-wrapper > .menu > button:hover {
+    background-color: #fff;
+}
+.header-wrapper > .menu > button:first-child {
+    border-radius: 4px 0 0 4px;
+}
+.header-wrapper > .menu > button :last-child {
+    border-radius: 0 4px 4px 0;
+}
+.menu{
+        width: 100%;
+        flex-direction: column;
+    }
+    .main-content .form-section div {
+        width: 100%;
+    }
+    @media only screen and (max-width: 200px) {
+        header-wrapper {
+            flex-direction: column;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .menu {
+            width: 100%;
+            flex-direction: column;
+        }
+        .logo{
+            margin-bottom: 14px;
+        }
+
+    } 
+header {
+    background-color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+main {
+    padding: 50px; 
+}
+
+
+/*ini profile*/
+.banner-container {
+    height: 350px;
+    width: 100%;
+    border: 1px solid;
+}
+
+.banner-item {
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+}
+
+.profile-content {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.profile-item {
+    text-align: center;
+}
+
+.profile-icon {
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    flex: 1;
+    text-align: -webkit-center;
+}
+
+
+        /*ini form*/
+
+.form-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.isian-form-container {
+    width: 50%;
+}
+
+.forminput-container {
+    height: 300px;
+    width: 50%;
+    border: 1px solid;
+    align-content: flex-end;
+    background-color: #fff;
+}
+
+form input, form textarea, form button {
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+
+.divider {
+    flex: 2;
+}
+
+
+
+
+
